@@ -1,0 +1,21 @@
+.cabecalho {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;      
+  justify-content: flex-start; 
+
+  position: fixed; 
+  top: 0;
+  left: 0; 
+  z-index: 9999; 
+  
+
+  min-height: 100px; 
+}
+
+
+.cabecalho img { 
+  height: 80px; 
+}
