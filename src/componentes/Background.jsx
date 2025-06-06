@@ -1,6 +1,3 @@
-// src/components/Background.jsx
-import React from "react";
-
 import "../estilos/Background.css";
 
 export default function Background() {
