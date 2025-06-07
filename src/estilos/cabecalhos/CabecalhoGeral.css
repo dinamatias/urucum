@@ -1,4 +1,4 @@
-.cabecalhoEditarPerfil {
+.cabecalhoGeral {
   position: relative;
   display: flex;
   align-items: center;
@@ -8,13 +8,13 @@
   gap: 1rem;
 }
 
-.cabecalhoEditarPerfil > h1 {
+.cabecalhoGeral > h1 {
   font-size: 2rem;
   color: #0d4d00;
   margin: 0 auto; /* como ele justifica no centro, só deixar auto que é sucesso */
 }
 
-.cabecalhoEditarPerfil > button {
+.cabecalhoGeral > button {
   right: 2%;
   background-color: #0d4d00;
   color: white;
@@ -30,7 +30,7 @@
   right: auto;
 }
 
-.cabecalhoEditarPerfil > button:hover {
+.cabecalhoGeral > button:hover {
   background-color: #0b3f00; 
 }
 

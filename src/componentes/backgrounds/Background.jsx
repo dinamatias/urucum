@@ -1,6 +1,6 @@
-import Background from "./estilos/backgrounds/Background.css";
+import "../../estilos/backgrounds/Background.css";
 
-export default function BackgroundInicial() {
+export default function Background() {
   return (
     <div className="background"></div>
   );

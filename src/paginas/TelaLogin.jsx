@@ -1,6 +1,6 @@
-import Background from "../componentes/Background";
+import Background from "../componentes/backgrounds/Background.jsx";
 import Login from "../componentes/Login";
-import Cabecalho from "../componentes/Cabecalho.jsx";
+import Cabecalho from "../componentes/cabecalhos/Cabecalho.jsx";
 
 export default function TelaLogin() {
     return (
@@ -8,7 +8,6 @@ export default function TelaLogin() {
             <Cabecalho />
             <Login />
             <Background />
-            
         </>
     )
 }

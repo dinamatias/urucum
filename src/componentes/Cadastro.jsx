@@ -1,11 +1,12 @@
-import "../estilos/Cadastro.css";
-
+import Cabecalho from "./Cabecalhos/Cabecalho";
+import "../estilos/Formulario.css";
 
 export default function Cadastro() {
   return (
     <>
-      <div className="cadastro-container">
-        <form className="cadastro-form">
+    <Cabecalho />
+      <div className="form-container">
+        <form className="form">
           <h2>CADASTRO</h2>
           <input type="text" placeholder="Nome Completo" />
           <input type="text" placeholder="Nome Artístico" />

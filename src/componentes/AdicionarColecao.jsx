@@ -1,12 +1,12 @@
 import CabecalhoAdicionarColecao from "./cabecalhos/CabecalhoAdicionarColecao";
-import "../estilos/AdicionarColecao.css";
+import "../estilos/Formulario.css";
 
 export default function AdicionarColecao() {
   return (
     <>
         <CabecalhoAdicionarColecao />
-        <div className="adicionar-colecao-container">
-            <form className="adicionar-colecao-form">
+        <div className="form-container">
+            <form className="form">
                 <input type="text" placeholder="Nome da Coleção" />
                 <p>Tamanho máximo de 32 caracteres</p>
                 <textarea placeholder="Descrição da Coleção" maxLength="500"></textarea>

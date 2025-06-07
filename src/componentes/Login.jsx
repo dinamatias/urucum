@@ -1,10 +1,10 @@
-import "../estilos/Cadastro.css";
+import "../estilos/Formulario.css";
 
 export default function Cadastro() {
   return (
     <>
-      <div className="cadastro-container">
-        <form className="cadastro-form">
+      <div className="form-container">
+        <form className="form">
           <h2>LOGIN</h2>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Senha" />

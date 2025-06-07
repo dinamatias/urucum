@@ -1,6 +1,6 @@
 import "../../estilos/backgrounds/BackgroundInicial.css";
 
-export default function Background() {
+export default function BackgroundInicial() {
   return (
     <div className="background">
       <div className="top-half"></div>
