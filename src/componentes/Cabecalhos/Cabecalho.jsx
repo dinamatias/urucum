@@ -1,5 +1,5 @@
-import "../../estilos/cabecalho.css"
 import logo from "../../assets/logo-principal.png";
+import "../../estilos/cabecalhos/Cabecalho.css"
 
 export default function Cabecalho({ children }) {
   return (
