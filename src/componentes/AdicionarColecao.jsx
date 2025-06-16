@@ -1,4 +1,4 @@
-import CabecalhoAdicionarColecao from "./cabecalhos/CabecalhoAdicionarColecao";
+import CabecalhoAdicionarColecao from "./Cabecalhos/CabecalhoAdicionarColecao";
 import "../estilos/Formulario.css";
 
 export default function AdicionarColecao() {
