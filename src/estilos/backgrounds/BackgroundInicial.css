@@ -16,7 +16,7 @@
 
 .bottom-half {
   height: 50%;
-  background-image: url("../assets/grafismo.svg"); /* ajuste o caminho */
+  background-image: url("../../assets/grafismo.svg"); /* ajuste o caminho */
   background-repeat: repeat;
   background-size: contain;
 }

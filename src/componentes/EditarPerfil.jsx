@@ -1,4 +1,4 @@
-import CabecalhoEditarPefil from './cabecalhos/CabecalhoEditarPefil';
+import CabecalhoEditarPefil from './Cabecalhos/CabecalhoEditarPefil';
 import '../estilos/Formulario.css'
 import '../estilos/EditarPerfil.css';
 

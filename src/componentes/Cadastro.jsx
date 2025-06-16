@@ -1,4 +1,4 @@
-import Cabecalho from "./Cabecalhos/Cabecalho";
+import Cabecalho from "./Cabecalhos/CabecalhoImagem";
 import "../estilos/Formulario.css";
 
 export default function Cadastro() {

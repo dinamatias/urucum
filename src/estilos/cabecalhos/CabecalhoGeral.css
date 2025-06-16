@@ -1,43 +1,29 @@
 .cabecalhoGeral {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* aqui centraliza tudo */
-  width: 100%; /* faz ele pegar a largura todinha */
-  padding: 1rem 0; /* muda de acordo com o tamanho base da fonte */
-  gap: 1rem;
+    min-width: 100%;
+    display: flex;
+    gap: 20px;
 }
 
-.cabecalhoGeral > h1 {
-  font-size: 2rem;
-  color: #0d4d00;
-  margin: 0 auto; /* como ele justifica no centro, só deixar auto que é sucesso */
+h1{
+    width: 20%;
+    flex: 1;
 }
 
-.cabecalhoGeral > button {
-  right: 2%;
-  background-color: #0d4d00;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  
-  /* Essas funções, em conjunto, ajustam o botaozinho pra ficar suave na direita */
-  position: static;
-  transform: none;
-  top: auto;
-  right: auto;
+.botaoPerfil {
+    flex: 1;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 10px;
 }
 
-.cabecalhoGeral > button:hover {
-  background-color: #0b3f00; 
+/*.cabecalhoGeral h1{
+    font-size: 30px;
 }
+
+
 
 .fotoPerfil {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 0; 
-}
+    width: 40px;
+    border-radius: 50%;
+}*/

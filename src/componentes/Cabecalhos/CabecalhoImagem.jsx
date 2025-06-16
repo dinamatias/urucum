@@ -5,7 +5,9 @@ export default function Cabecalho({ children }) {
   return (
     <header className="cabecalho">
       <img src={logo} alt="Logo URUCUM" />
-      {children}
+      <div>
+        {children}
+      </div>
     </header>
   );
 }

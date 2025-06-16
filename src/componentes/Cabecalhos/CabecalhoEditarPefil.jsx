@@ -7,8 +7,10 @@ export default function CabecalhoEditarPerfil() {
       <CabecalhoImagem>
           <header className="cabecalhoGeral">
               <h1>Editar perfil</h1>
-              <button>Página Inicial</button>
-              <div className="fotoPerfil"><img src="banco-de-dados.sql" alt="imagem do artista" /></div>
+              <div className="botaoPerfil">
+                <button>Página Inicial</button>
+                <div className="fotoPerfil"><img src="banco-de-dados.sql" alt="imagem do artista" /></div>
+              </div>
           </header>
       </CabecalhoImagem>
     </>

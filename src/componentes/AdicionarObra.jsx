@@ -1,4 +1,4 @@
-import CabecalhoAdicionarObra from "./cabecalhos/CabecalhoAdicionarObra";
+import CabecalhoAdicionarObra from "./Cabecalhos/CabecalhoAdicionarObra";
 import "../estilos/Formulario.css";
 import "../estilos/AdicionarObra.css";
 
