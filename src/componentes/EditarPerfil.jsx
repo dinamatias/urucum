@@ -1,11 +1,11 @@
-import CabecalhoEditarPefil from './Cabecalhos/CabecalhoEditarPefil';
+import CabecalhoEditarPerfil from './cabecalhos/CabecalhoEditarPefil';
 import '../estilos/Formulario.css'
 import '../estilos/EditarPerfil.css';
 
 export default function EditarPerfil() {
   return (
     <>
-    <CabecalhoEditarPefil />
+    <CabecalhoEditarPerfil />
         <div className="form-container">
             <form className="form">
                     <h2>Informações de Perfil</h2>

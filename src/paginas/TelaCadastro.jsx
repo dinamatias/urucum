@@ -1,10 +1,10 @@
-import Background from "../componentes/backgrounds/BackgroundInicial";
+import BackgroundGrafismo from "../componentes/BackgroundGrafismo/BackgroundGrafismo";
 import Cadastro from "../componentes/Cadastro";
 
 export default function TelaCadastro() {
     return (
         <>
-            <Background />
+            <BackgroundGrafismo />
             <Cadastro />
         </>
     )

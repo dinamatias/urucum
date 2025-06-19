@@ -1,5 +1,5 @@
-import CabecalhoImagem from "./CabecalhoImagem";
-import "../../estilos/cabecalhos/CabecalhoGeral.css";
+import CabecalhoImagem from "./CabecalhoImagem/CabecalhoImagem";
+import "../../estilos/CabecalhoGeral.css";
 
 export default function CabecalhoEditarPerfil() {
   return (
