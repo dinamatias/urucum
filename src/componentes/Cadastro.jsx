@@ -5,7 +5,7 @@ export default function Cadastro() {
   return (
     <>
       <Cabecalho />
-      <div className="container">
+      <main className="container">
         <form className="form-container">
           <h2>CADASTRO</h2>
           <div className="form-inputs">
@@ -18,7 +18,7 @@ export default function Cadastro() {
           <button type="submit">CADASTRAR</button>
           <p>Já possui um login? <a href="/login">Faça login</a></p>
         </form>
-      </div>
+      </main>
     </>
   );
 }
