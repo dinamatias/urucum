@@ -1,11 +1,9 @@
-import Background from "../componentes/backgrounds/Background"
-import EditarPerfil from "../componentes/EditarPerfil"
+import EditarPerfil from "../componentes/EditarPerfil/EditarPerfil"
 
 export default function TelaEditarPerfil() {
     return (
         <>
             <EditarPerfil />
-            <Background />
         </>
     )
 }
