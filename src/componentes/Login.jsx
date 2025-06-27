@@ -1,17 +1,35 @@
+import { useNavigate } from "react-router-dom";
+
+import Cabecalho from "./cabecalhos/CabecalhoImagem/CabecalhoImagem";
 import "../estilos/Formulario.css";
 
-export default function Cadastro() {
+export default function Login() {
+  const navegar = useNavigate();
+
+  const quandoEnviar = (event) => {
+    event.preventDefault();
+    navegar("/home");
+  };
+
+  const quandoCadastro = (event) => {
+    event.preventDefault();
+    navegar("/");
+  };
+  
   return (
     <>
-      <div className="form-container">
-        <form className="form">
+      <Cabecalho />
+      <main className="container">
+        <form className="form-container">
           <h2>LOGIN</h2>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Senha" />
-          <button type="submit">ENTRAR</button>
-          <p>Não possui um login? <a href="./paginas/TelaCadastro">Cadastre-se</a></p>
+          <div className="form-inputs">
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Senha" />
+          </div>
+          <button type="submit" onClick={quandoEnviar}>ENTRAR</button>
+          <p>Não possui um login? <a href="/" onClick={quandoCadastro}>Cadastre-se</a></p>
         </form>
-      </div>
+      </main>
     </>
   );
 }

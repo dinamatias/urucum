@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.imagemUsuario {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+    background-color: grey;
+
+    /*Centraliza o texto*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formContainer{
+    width: 1625px;
+    height: 1080px;
+
+    /*Deixa tudo alinhado a esquerda*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding-left: 50px;
+}
+
+.biografia {
+    width: 90%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.adicionarTag {
+    width: 20%;
+}
+
+.adicionarTag:hover {
+    background-color: #0c2d0c;
+}
+
+.textoLimite {
+    font-size: 12px;
+    margin-top: 0;
+    color: grey;
+}
+
+.iconesContato {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    /*Tamanho dos ícones*/
+    font-size: 32px;
+}
+
+.iconesContato input {
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.deletarSalvar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+
+    /*
+        vw aparentemente é viewport, ou seja, o tamanho da tela
+        então, a div vai puxar 50% da tela
+    */
+    width: 90%;
+}
+
+.deletarSalvar button {
+    flex: 1;
+}
+
+#deletarConta {
+    background-color: #aa0000;
+}
+
+#deletarConta:hover {
+    background-color: rgb(105, 14, 14);
+}

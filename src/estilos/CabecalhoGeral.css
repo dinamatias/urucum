@@ -1,0 +1,36 @@
+.botaoPerfil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.botaoPerfil button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #134313;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fotoPerfil {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: grey;
+    
+    margin-right: 30px;
+
+    /* Centraliza o texto */
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+
+    color: #134313;
+}

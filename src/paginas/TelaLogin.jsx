@@ -1,13 +1,11 @@
-import Background from "../componentes/backgrounds/Background.jsx";
-import Login from "../componentes/Login";
-import Cabecalho from "../componentes/Cabecalhos/CabecalhoImagem.jsx";
+import BackgroundGrafismo from "../componentes/BackgroundGrafismo/BackgroundGrafismo.jsx";
+import Login from "../componentes/Login.jsx";
 
 export default function TelaLogin() {
     return (
         <>
-            <Cabecalho />
+            <BackgroundGrafismo />
             <Login />
-            <Background />
         </>
     )
 }

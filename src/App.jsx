@@ -1,16 +1,25 @@
-//import TelaCadastro from './paginas/TelaCadastro'
-//import TelaLogin from './paginas/TelaLogin'
-import TelaEditarPerfil from './paginas/TelaEditarPerfil'
-//import TelaAdicionarColecao from './paginas/TelaAdicionarColecao'
-//import TelaAdicionarObra from "./paginas/TelaAdicionarObra"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import TelaCadastro from "./paginas/TelaCadastro";
+import TelaEditarPerfil from "./paginas/TelaEditarPerfil"
+import TelaLogin from "./paginas/TelaLogin";
+
+
 
 function App() {
 
   return (
     <>
-      <TelaEditarPerfil />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<TelaCadastro />} />
+          <Route path="/editar-perfil" element={<TelaEditarPerfil />} />
+          <Route path="/login" element={<TelaLogin />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
 
 export default App
+2
