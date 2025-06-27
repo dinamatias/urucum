@@ -1,7 +1,21 @@
+import { useNavigate } from "react-router-dom";
+
 import Cabecalho from "./cabecalhos/CabecalhoImagem/CabecalhoImagem";
 import "../estilos/Formulario.css";
 
 export default function Login() {
+  const navegar = useNavigate();
+
+  const quandoEnviar = (event) => {
+    event.preventDefault();
+    navegar("/home");
+  };
+
+  const quandoCadastro = (event) => {
+    event.preventDefault();
+    navegar("/");
+  };
+  
   return (
     <>
       <Cabecalho />
@@ -12,8 +26,8 @@ export default function Login() {
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Senha" />
           </div>
-          <button type="submit">ENTRAR</button>
-          <p>Não possui um login? <a href="./paginas/TelaCadastro">Cadastre-se</a></p>
+          <button type="submit" onClick={quandoEnviar}>ENTRAR</button>
+          <p>Não possui um login? <a href="/" onClick={quandoCadastro}>Cadastre-se</a></p>
         </form>
       </main>
     </>

@@ -1,4 +1,9 @@
-#imagem-usuario {
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.imagemUsuario {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -12,7 +17,7 @@
     text-align: center;
 }
 
-.form-container{
+.formContainer{
     width: 1625px;
     height: 1080px;
 
@@ -24,7 +29,7 @@
     padding-left: 50px;
 }
 
-.form-container textarea {
+.biografia {
     width: 90%;
     height: 100px;
     resize: none;
@@ -34,26 +39,26 @@
     font-size: 16px;
 }
 
-.form-container h3 {
+.subtitulo {
     font-size: 20px;
     font-family: sans-serif;
 }
 
-.form-container button {
+.adicionarTag {
     width: 20%;
 }
 
-.form-container button:hover {
+.adicionarTag:hover {
     background-color: #0c2d0c;
 }
 
-.form-container p {
+.textoLimite {
     font-size: 12px;
     margin-top: 0;
     color: grey;
 }
 
-.icones-contato {
+.iconesContato {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -62,14 +67,14 @@
     font-size: 32px;
 }
 
-.icones-contato input{
+.iconesContato input {
     height: 40px;
     border-radius: 30px;
     border: 1px solid black;
     padding-left: 10px;
 }
 
-.deletar-salvar {
+.deletarSalvar {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -82,14 +87,14 @@
     width: 90%;
 }
 
-.deletar-salvar button {
+.deletarSalvar button {
     flex: 1;
 }
 
-#deletar-conta {
+#deletarConta {
     background-color: #aa0000;
 }
 
-#deletar-conta:hover {
+#deletarConta:hover {
     background-color: rgb(105, 14, 14);
 }
