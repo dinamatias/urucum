@@ -24,8 +24,8 @@ export default function EditarPerfil() {
             <img src="upload" alt="Faça upload de sua imagem aqui" />
           </div>
           <div className={`form-inputs ${styles.formInputs}`}>
-            <input className={styles.input} type="text" placeholder="Nome Completo" />
-            <input className={styles.input} type="text" placeholder="Nome Artístico" />
+            <input className={styles.input} type="text" placeholder="Nome Completo" maxLength={64}/>
+            <input className={styles.input} type="text" placeholder="Nome Artístico" maxLength={64}/>
           </div>
 
 
@@ -39,7 +39,7 @@ export default function EditarPerfil() {
 
           <div className={styles.iconesContato}>
             <FaWhatsapp />
-            <input className={styles.input} type="text" placeholder="Número do WhatsApp" />
+            <input className={styles.input} type="number" placeholder="Número do WhatsApp" />
             <FaInstagram />
             <input className={styles.input} type="text" placeholder="Usuário do Instagram" />
           </div>

@@ -23,11 +23,11 @@ export default function Cadastro() {
         <form className="form-container" onSubmit={quandoEnviar}>
           <h2>CADASTRO</h2>
           <div className="form-inputs">
-            <input type="text" placeholder="Nome Completo" />
-            <input type="text" placeholder="Nome Artístico" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Senha" />
-            <input type="password" placeholder="Confirme sua senha" />
+            <input type="text" placeholder="Nome Completo" maxLength={64} />
+            <input type="text" placeholder="Nome Artístico" maxLength={64} />
+            <input type="email" placeholder="Email" maxLength={32} />
+            <input type="password" placeholder="Senha" maxLength={32} />
+            <input type="password" placeholder="Confirme sua senha" maxLength={32} />
           </div>
           <button type="submit">CADASTRAR</button>
           <p>Já possui um login? <a href="/login" onClick={quandoLogin}>Faça login</a></p>

@@ -8,7 +8,7 @@ export default function Login() {
 
   const quandoEnviar = (event) => {
     event.preventDefault();
-    navegar("/home");
+    navegar("/pagina-inicial");
   };
 
   const quandoCadastro = (event) => {
@@ -23,8 +23,8 @@ export default function Login() {
         <form className="form-container">
           <h2>LOGIN</h2>
           <div className="form-inputs">
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Senha" />
+            <input type="email" placeholder="Email" maxLength={32} />
+            <input type="password" placeholder="Senha" maxLength={32} />
           </div>
           <button type="submit" onClick={quandoEnviar}>ENTRAR</button>
           <p>Não possui um login? <a href="/" onClick={quandoCadastro}>Cadastre-se</a></p>
