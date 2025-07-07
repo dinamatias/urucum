@@ -1,0 +1,1 @@
+import PerfilArtista from '../componentes/PerfilArtista/PerfilArtista';

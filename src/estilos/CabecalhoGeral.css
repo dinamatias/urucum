@@ -15,6 +15,10 @@
     cursor: pointer;
 }
 
+.botaoPerfil button:hover {
+    background-color: #0f3f0f;
+}
+
 .fotoPerfil {
     width: 70px;
     height: 70px;
@@ -26,6 +30,16 @@
     /* Centraliza o texto */
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+.fotoPerfil img {
+    display: flex;
+    align-items: center;
+    color: white;
 }
 
 h1 {

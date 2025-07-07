@@ -17,9 +17,25 @@
     text-align: center;
 }
 
+.imagemContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+}
+
+.botoesAlterar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: auto;
+
+    width: 40%;
+}
+
 .formContainer{
-    width: 1625px;
-    height: 1080px;
+    width: 1300px;
+    height: 800px;
 
     /*Deixa tudo alinhado a esquerda*/
     display: flex;
@@ -37,6 +53,7 @@
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 16px;
+    font-family: sans-serif;
 }
 
 .subtitulo {
@@ -44,8 +61,8 @@
     font-family: sans-serif;
 }
 
-.adicionarTag {
-    width: 20%;
+#adicionarTag {
+    width: 10%;
 }
 
 .adicionarTag:hover {
@@ -62,6 +79,8 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 
     /*Tamanho dos ícones*/
     font-size: 32px;

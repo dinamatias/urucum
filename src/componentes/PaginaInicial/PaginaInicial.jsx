@@ -57,7 +57,9 @@ export default function PaginaInicial() {
               <p className="nao-existe">Nenhum artista encontrado.</p>
             ) : (
               artistas.map((artista, index) => (
-                <div key={index} className="cartinha-artista">
+                <div key={index} className="cartinha-artista" onClick={() => {
+                  window.location.href = `/perfil-artista?name=${artista.name}`;
+                }}>
                   <img src={artista.image} alt={artista.name} />
                   <div className="foto-perfil-artista">
                     <img src={artista.image} alt={artista.name} />

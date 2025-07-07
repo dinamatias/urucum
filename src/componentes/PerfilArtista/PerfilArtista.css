@@ -1,0 +1,288 @@
+main {
+    padding: 20px;
+}
+
+.perfil-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bloco-informacoes-basicas {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 700px;
+}
+
+.imagem-principal {
+    height: 700px;
+    width: 1200px;
+    background-color: gray;
+    margin-right: 20px;
+}
+
+.imagem-perfil-tags {
+    display: flex;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: grey;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.tags {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.tag {
+    background-color: #aa0000;
+    color: white;
+    font-size: 14px;
+    margin-right: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+
+    border-radius: 10px;
+}
+
+.bio-editar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+    margin-top: 20px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.bio {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+    font-family: sans-serif;
+}
+
+.botao-editar {
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #134313;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao-editar:hover {
+    background-color: #0f3f0f;
+}
+
+h3 {
+    font-size: 30px;
+    color: #aa0000;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.obra {
+    display: flex;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 350px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.obra:hover {
+    transform: translateY(-5px);
+}
+
+.obra img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    background-color: #f8f8f8;
+}
+
+.colecoes {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.colecao {
+    display: flex;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 350px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.colecao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    background-color: #f8f8f8;
+}
+
+.botoes-editar-deletar {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+
+    /*fica invisivo*/
+    opacity: 0;
+
+    /*aparece aos poco*/
+    transition: opacity 0.3s ease;
+}
+
+.colecao:hover .botoes-editar-deletar {
+    opacity: 1;
+}
+
+.obra:hover .botoes-editar-deletar {
+    opacity: 1;
+}
+
+.colecao:hover {
+    transform: translateY(-5px);
+}
+
+.deletar, .editar {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.deletar {
+    background-color: #aa0000;
+    color: white;
+}
+
+.deletar:hover {
+    background-color: #8a0000;
+    transform: scale(1.1);
+}
+
+.editar {
+    background-color: #134313;
+    color: white;
+}
+
+.editar:hover {
+    background-color: #0f3f0f;
+    transform: scale(1.1);
+}
+
+h4 {
+    font-size: 20px;
+    color: #aa0000;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.contato {
+    display: flex;
+    gap: 10px;
+}
+
+.contato-link {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.icone {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    padding: 20px;
+    transition: all 0.2s ease;
+}
+
+.icone:hover {
+    color: #aa0000;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    align-items: center;
+    padding: 10px;
+}
+
+.denunciar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-denunciar {
+    width: 30%;
+    height: 50px;
+    background-color: #aa0000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.botao-denunciar:hover {
+    background-color: #8a0000;
+}

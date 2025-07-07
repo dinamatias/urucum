@@ -1,0 +1,67 @@
+.popupContent {
+    width: 40%;
+}
+
+.tabelaTags {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabelaTagsBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.botaoAdicionarTag {
+    background-color: #aa0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.botaoAdicionarTag:hover {
+    background-color: #8a0000;
+}
+
+.tituloTagDisponivel {
+    font-weight: bold;
+    color: #134313;
+    font-size: 18px;
+    display: block;
+    font-family: sans-serif;
+}
+
+.tituloTagAdicionada {
+    font-weight: bold;
+    color: #134313;
+    font-size: 18px;
+    padding-bottom: 20px;
+    display: block;
+    font-family: sans-serif;
+}
+
+.tagAdicionada {
+    font-family: sans-serif;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.botaoTagAdicionada {
+    color: #134313;
+    cursor: pointer;
+    background-color: #FFD2B3;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.botaoTagAdicionada:hover {
+    background-color: #ffb380;
+}
